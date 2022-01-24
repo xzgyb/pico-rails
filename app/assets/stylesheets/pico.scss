@@ -1,0 +1,42 @@
+/*!
+ * Pico.css v1.4.4 (https://picocss.com)
+ * Copyright 2019-2021 - Licensed under MIT
+ */
+
+// Config
+@import "scss/variables";
+
+// Theming
+@import "scss/themes/default";
+
+// Layout
+@import "scss/layout/document"; // html
+@import "scss/layout/sectioning"; // body, header, main, footer
+@import "scss/layout/container"; // .container, .container-fluid
+@import "scss/layout/section"; // section
+@import "scss/layout/grid"; // .grid
+@import "scss/layout/scroller"; // figure
+
+// Content
+@import "scss/content/typography"; // a, headings, p, ul, blockquote, ...
+@import "scss/content/embedded"; // audio, canvas, iframe, img, svg, video
+@import "scss/content/button"; // button, a[role=button], type=button, type=submit ...
+@import "scss/content/form"; // input, select, textarea, label, fieldset, legend
+@import "scss/content/form-checkbox-radio"; // type=checkbox, type=radio, role=switch
+@import "scss/content/form-alt-input-types"; // type=color, type=date, type=file, type=search, ...
+@import "scss/content/table"; // table, tr, td, ...
+@import "scss/content/code"; // pre, code, ...
+@import "scss/content/miscs"; // hr, template, [hidden], dialog, canvas
+
+// Components
+@import "scss/components/accordion"; // details, summary
+@import "scss/components/card"; // article
+@import "scss/components/modal"; // dialog
+@import "scss/components/nav"; // nav
+@import "scss/components/progress"; // progress
+
+// Utilities
+@import "scss/utilities/loading"; // aria-busy=true
+@import "scss/utilities/tooltip"; // data-tooltip
+@import "scss/utilities/accessibility"; // -ms-touch-action, aria-*
+@import "scss/utilities/reduce-motion"; // prefers-reduced-motion

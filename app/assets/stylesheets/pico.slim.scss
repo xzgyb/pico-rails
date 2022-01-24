@@ -1,0 +1,47 @@
+/*!
+ * Pico.css v1.4.4 (https://picocss.com)
+ * Copyright 2019-2021 - Licensed under MIT
+ *
+ * Slim version example
+ * You can export only the modules you need
+ */
+
+// Config
+// --------------------
+
+// Enable responsive spacings for <header>, <main>, <footer>, <section>, <article>
+$enable-responsive-spacings: false;
+
+// Enable transitions
+$enable-transitions: false;
+
+// Enable overriding with !important
+$enable-important: false;
+
+// Pico Lib
+// --------------------
+
+// Config
+@import "scss/variables";
+
+// Theming
+@import "scss/themes/default";
+
+// Layout
+@import "scss/layout/document"; // html
+@import "scss/layout/sectioning"; // body, header, main, footer
+@import "scss/layout/container"; // .container, .container-fluid
+@import "scss/layout/section"; // section
+@import "scss/layout/grid"; // .grid
+@import "scss/layout/scroller"; // figure
+
+// Content
+@import "scss/content/typography"; // a, headings, p, ul, blockquote, ...
+@import "scss/content/embedded"; // audio, canvas, iframe, img, svg, video
+@import "scss/content/button"; // button, a[role=button], type=button, type=submit ...
+@import "scss/content/form"; // input, select, textarea, label, fieldset, legend
+@import "scss/content/table"; // table, tr, td, ...
+
+// Utilities
+@import "scss/utilities/accessibility"; // -ms-touch-action, aria-*
+@import "scss/utilities/reduce-motion"; // prefers-reduced-motion
