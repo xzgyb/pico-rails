@@ -1,42 +1,42 @@
 /*!
- * Pico.css v1.4.4 (https://picocss.com)
- * Copyright 2019-2021 - Licensed under MIT
+ * Pico.css v1.5.3 (https://picocss.com)
+ * Copyright 2019-2022 - Licensed under MIT
  */
 
 // Config
-@import "scss/variables";
+@import "pico/scss/variables";
 
 // Theming
-@import "scss/themes/default";
+@import "pico/scss/themes/default";
 
 // Layout
-@import "scss/layout/document"; // html
-@import "scss/layout/sectioning"; // body, header, main, footer
-@import "scss/layout/container"; // .container, .container-fluid
-@import "scss/layout/section"; // section
-@import "scss/layout/grid"; // .grid
-@import "scss/layout/scroller"; // figure
+@import "pico/scss/layout/document"; // html
+@import "pico/scss/layout/sectioning"; // body, header, main, footer
+@import "pico/scss/layout/container"; // .container, .container-fluid
+@import "pico/scss/layout/section"; // section
+@import "pico/scss/layout/grid"; // .grid
+@import "pico/scss/layout/scroller"; // figure
 
 // Content
-@import "scss/content/typography"; // a, headings, p, ul, blockquote, ...
-@import "scss/content/embedded"; // audio, canvas, iframe, img, svg, video
-@import "scss/content/button"; // button, a[role=button], type=button, type=submit ...
-@import "scss/content/form"; // input, select, textarea, label, fieldset, legend
-@import "scss/content/form-checkbox-radio"; // type=checkbox, type=radio, role=switch
-@import "scss/content/form-alt-input-types"; // type=color, type=date, type=file, type=search, ...
-@import "scss/content/table"; // table, tr, td, ...
-@import "scss/content/code"; // pre, code, ...
-@import "scss/content/miscs"; // hr, template, [hidden], dialog, canvas
+@import "pico/scss/content/typography"; // a, headings, p, ul, blockquote, ...
+@import "pico/scss/content/embedded"; // audio, canvas, iframe, img, svg, video
+@import "pico/scss/content/button"; // button, a[role=button], type=button, type=submit ...
+@import "pico/scss/content/form"; // input, select, textarea, label, fieldset, legend
+@import "pico/scss/content/form-checkbox-radio"; // type=checkbox, type=radio, role=switch
+@import "pico/scss/content/form-alt-input-types"; // type=color, type=date, type=file, type=search, ...
+@import "pico/scss/content/table"; // table, tr, td, ...
+@import "pico/scss/content/code"; // pre, code, ...
+@import "pico/scss/content/miscs"; // hr, template, [hidden], dialog, canvas
 
 // Components
-@import "scss/components/accordion"; // details, summary
-@import "scss/components/card"; // article
-@import "scss/components/modal"; // dialog
-@import "scss/components/nav"; // nav
-@import "scss/components/progress"; // progress
+@import "pico/scss/components/accordion"; // details, summary
+@import "pico/scss/components/card"; // article
+@import "pico/scss/components/modal"; // dialog
+@import "pico/scss/components/nav"; // nav
+@import "pico/scss/components/progress"; // progress
 
 // Utilities
-@import "scss/utilities/loading"; // aria-busy=true
-@import "scss/utilities/tooltip"; // data-tooltip
-@import "scss/utilities/accessibility"; // -ms-touch-action, aria-*
-@import "scss/utilities/reduce-motion"; // prefers-reduced-motion
+@import "pico/scss/utilities/loading"; // aria-busy=true
+@import "pico/scss/utilities/tooltip"; // data-tooltip
+@import "pico/scss/utilities/accessibility"; // -ms-touch-action, aria-*
+@import "pico/scss/utilities/reduce-motion"; // prefers-reduced-motion
